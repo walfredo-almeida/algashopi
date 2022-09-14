@@ -1,13 +1,22 @@
 import React from 'react'
-import {Container, Wrapper} from './App.styles'
+import AppContainer from '../AppContainer'
+import AppHeader from '../AppHeader'
+import { Container, Wrapper } from './App.styles'
 
 
-function App () {
+function App() {
     return <Wrapper>
         <Container>
-            todo : app
-        </Container>
-    </Wrapper>
+        <AppHeader/>
+        <AppContainer
+        left ={<div style={{ backgroundColor: 'red'}}> produtos disponiveis </div>}       
+        middle ={<div style={{ backgroundColor: 'green'}}> sua lista de compras </div>}       
+        right ={<div style={{ backgroundColor: 'blue'}}> estatisticas</div>}       
+        
+        />
+
+    </Container>
+    </Wrapper >
 }
 
 
