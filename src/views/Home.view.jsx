@@ -1,9 +1,10 @@
 import React from 'react'
+import App from '../components/App'
 
 
 function HomeView() {
     return <div >
-        todo: home viewwwwwww
+    <App/>
     </div>
 }
 
