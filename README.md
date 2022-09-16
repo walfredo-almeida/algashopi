@@ -12,9 +12,11 @@
 `git push -u origin main 8`
 
 …or push an existing repository from the command line
- ```git remote add origin https://github.com/walfredo-almeida/algashopi.git
+ ```
+git remote add origin https://github.com/walfredo-almeida/algashopi.git
 git branch -M main
-git push -u origin main```
+git push -u origin main
+```
 
 
 
