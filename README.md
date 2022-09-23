@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 # algashopi
 
-## ✔️ 
+## ✔️ React
 
  …or create a new repository on the command line
 - `echo "# algashopi" >> README.md`
